@@ -1,0 +1,21 @@
+{
+  "name": "twilio-ai-voice-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "@twilio/runtime-handler": "1.2.1",
+    "openai": "^4.94.0",
+    "twilio": "5.0.3"
+  },
+  "devDependencies": {
+    "twilio-run": "^4.0.3"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
